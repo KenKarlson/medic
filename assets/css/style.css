@@ -504,6 +504,61 @@ span {
   cursor: pointer;
 }
 
+.header-display-card {
+  position: absolute;
+  right: 562px;
+  bottom: 85px;
+  display: inline-block;
+  margin: 0;
+  padding: 16px;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: none;
+  background-color: #fcfcfc;
+}
+
+.header-display-card__avatar {
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.header-display-card__name {
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #121212;
+}
+
+.header-display-card__sname {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #696969;
+}
+
+.header-display-card__button {
+  margin: 0;
+  padding: 10px;
+  background-color: #4D77FF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+
 .header-display__medic {
   position: absolute;
   width: 738px;
@@ -522,4 +577,25 @@ span {
   right: 0;
   bottom: 0;
   z-index: -10;
+}
+
+.user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.step-container {
+  margin: 0 100px;
+  padding: 100px 0;
 }
