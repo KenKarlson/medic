@@ -11,6 +11,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <script src="./assets/js/slider.js" defer></script>
 </head>
 
 <body>
@@ -255,17 +257,46 @@
         <h1 class="slider__title">Our patients feedback about us</h1>
         <h3 class="slider__subtitle">their impression after using this application</h3>
       </div>
-      <!--sliderbox-->
+
+      <!--slider-box-->
       <div class="slider-box">
-        <div class="slider-box__bg"></div>
-        slider slider slider<br>
-        slider
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slider-box-card">
+
+              </div>
+              Slide 1
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+          </div>
+          <!-- If we need pagination 
+          <div class="swiper-pagination"></div>-->
+
+          <div class="control">
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+
+          <!-- If we need scrollbar 
+          <div class="swiper-scrollbar"></div>-->
+        </div>
       </div>
       <!--/sliderbox-->
+
     </div>
   </section>
   <!-- /.slider -->
 
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
